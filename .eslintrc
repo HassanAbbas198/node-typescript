@@ -1,0 +1,38 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "eol-last": "off",
+    "no-plusplus": "off",
+    "class-methods-use-this": "off",
+    "prefer-promise-reject-errors": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 200
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "no-underscore-dangle": 0,
+    "no-console": "error",
+    "no-multi-spaces": "error",
+    "no-unused-expressions": [
+      2,
+      {
+        "allowTernary": true
+      }
+    ],
+    "newline-per-chained-call": "off",
+    "no-async-promise-executor": "off",
+    "no-param-reassign": "off",
+    "no-return-assign": "off",
+    "radix": "off"
+
+  }
+}
